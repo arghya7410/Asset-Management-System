@@ -1,0 +1,117 @@
+[32m2024-12-17 08:32:32.051[0;39m [INFO] com.hexaware.ams.AssetmanagementSpringrestApplication [main] Starting AssetmanagementSpringrestApplication using Java 21.0.4 with PID 26252 (C:\Arghya\Java\AssetManagement\assetmanagement_springrest\target\classes started by arghy in C:\Arghya\Java\AssetManagement\assetmanagement_springrest)
+[32m2024-12-17 08:32:32.058[0;39m [DEBUG] com.hexaware.ams.AssetmanagementSpringrestApplication [main] Running with Spring Boot v3.2.12-SNAPSHOT, Spring v6.1.15
+[32m2024-12-17 08:32:32.059[0;39m [INFO] com.hexaware.ams.AssetmanagementSpringrestApplication [main] No active profile set, falling back to 1 default profile: "default"
+[32m2024-12-17 08:32:32.771[0;39m [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[32m2024-12-17 08:32:32.829[0;39m [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 52 ms. Found 7 JPA repository interfaces.
+[32m2024-12-17 08:32:33.247[0;39m [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+[32m2024-12-17 08:32:33.257[0;39m [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+[32m2024-12-17 08:32:33.257[0;39m [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+[32m2024-12-17 08:32:33.308[0;39m [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+[32m2024-12-17 08:32:33.308[0;39m [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1214 ms
+[32m2024-12-17 08:32:33.422[0;39m [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+[32m2024-12-17 08:32:33.483[0;39m [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.4.10.Final
+[32m2024-12-17 08:32:33.516[0;39m [INFO] org.hibernate.cache.internal.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+[32m2024-12-17 08:32:33.721[0;39m [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+[32m2024-12-17 08:32:33.743[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+[32m2024-12-17 08:32:34.117[0;39m [INFO] com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@413eaf5d
+[32m2024-12-17 08:32:34.118[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+[32m2024-12-17 08:32:34.196[0;39m [WARN] org.hibernate.orm.deprecation [main] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[32m2024-12-17 08:32:35.059[0;39m [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[32m2024-12-17 08:32:35.173[0;39m [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[32m2024-12-17 08:32:35.439[0;39m [DEBUG] com.hexaware.ams.config.JwtAuthenticationFilter [main] Filter 'jwtAuthenticationFilter' configured for use
+[32m2024-12-17 08:32:35.520[0;39m [INFO] org.springframework.data.jpa.repository.query.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+[32m2024-12-17 08:32:36.004[0;39m [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[32m2024-12-17 08:32:36.268[0;39m [INFO] org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3ab26cad, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4b477d05, org.springframework.security.web.context.SecurityContextHolderFilter@27dfd939, com.hexaware.ams.config.CorsFilter@7c5dbca5, org.springframework.security.web.header.HeaderWriterFilter@4115b8a7, org.springframework.web.filter.CorsFilter@6d6c4775, org.springframework.security.web.authentication.logout.LogoutFilter@3b035d0c, com.hexaware.ams.config.JwtAuthenticationFilter@698394bf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6c1a9613, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4095ebff, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@44929971, org.springframework.security.web.session.SessionManagementFilter@2c1eba2e, org.springframework.security.web.access.ExceptionTranslationFilter@5a41183b, org.springframework.security.web.access.intercept.AuthorizationFilter@6e13e2fc]
+[32m2024-12-17 08:32:36.539[0;39m [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+[32m2024-12-17 08:32:36.545[0;39m [INFO] com.hexaware.ams.AssetmanagementSpringrestApplication [main] Started AssetmanagementSpringrestApplication in 4.803 seconds (process running for 5.351)
+[32m2024-12-17 08:33:08.629[0;39m [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[32m2024-12-17 08:33:08.629[0;39m [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+[32m2024-12-17 08:33:08.630[0;39m [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+[32m2024-12-17 08:33:09.097[0;39m [INFO] com.hexaware.ams.service.EmployeeServiceImp [http-nio-8080-exec-4] Employee list retrieved successfully
+[32m2024-12-17 08:33:16.234[0;39m [INFO] com.hexaware.ams.service.AssetAuditServiceImp [http-nio-8080-exec-7] All audits returned.
+[32m2024-12-17 08:33:34.845[0;39m [INFO] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(9)-127.0.0.1] Application shutdown requested.
+[32m2024-12-17 08:33:34.856[0;39m [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(9)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+[32m2024-12-17 08:33:34.858[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(9)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+[32m2024-12-17 08:33:34.863[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(9)-127.0.0.1] HikariPool-1 - Shutdown completed.
+[32m2024-12-17 09:56:42.179[0;39m [INFO] com.hexaware.ams.AssetmanagementSpringrestApplication [main] Starting AssetmanagementSpringrestApplication using Java 21.0.4 with PID 5296 (C:\Arghya\Java\AssetManagement\assetmanagement_springrest\target\classes started by arghy in C:\Arghya\Java\AssetManagement\assetmanagement_springrest)
+[32m2024-12-17 09:56:42.180[0;39m [DEBUG] com.hexaware.ams.AssetmanagementSpringrestApplication [main] Running with Spring Boot v3.2.12-SNAPSHOT, Spring v6.1.15
+[32m2024-12-17 09:56:42.180[0;39m [INFO] com.hexaware.ams.AssetmanagementSpringrestApplication [main] No active profile set, falling back to 1 default profile: "default"
+[32m2024-12-17 09:56:42.758[0;39m [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[32m2024-12-17 09:56:42.810[0;39m [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 47 ms. Found 7 JPA repository interfaces.
+[32m2024-12-17 09:56:43.183[0;39m [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+[32m2024-12-17 09:56:43.193[0;39m [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+[32m2024-12-17 09:56:43.194[0;39m [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+[32m2024-12-17 09:56:43.237[0;39m [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+[32m2024-12-17 09:56:43.237[0;39m [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1027 ms
+[32m2024-12-17 09:56:43.335[0;39m [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+[32m2024-12-17 09:56:43.373[0;39m [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.4.10.Final
+[32m2024-12-17 09:56:43.396[0;39m [INFO] org.hibernate.cache.internal.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+[32m2024-12-17 09:56:43.553[0;39m [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+[32m2024-12-17 09:56:43.571[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+[32m2024-12-17 09:56:43.821[0;39m [INFO] com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5bf7f15f
+[32m2024-12-17 09:56:43.823[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+[32m2024-12-17 09:56:43.862[0;39m [WARN] org.hibernate.orm.deprecation [main] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[32m2024-12-17 09:56:44.582[0;39m [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[32m2024-12-17 09:56:44.668[0;39m [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[32m2024-12-17 09:56:44.896[0;39m [DEBUG] com.hexaware.ams.config.JwtAuthenticationFilter [main] Filter 'jwtAuthenticationFilter' configured for use
+[32m2024-12-17 09:56:44.969[0;39m [INFO] org.springframework.data.jpa.repository.query.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+[32m2024-12-17 09:56:45.411[0;39m [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[32m2024-12-17 09:56:45.655[0;39m [INFO] org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2899745e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3df88502, org.springframework.security.web.context.SecurityContextHolderFilter@798ac54d, com.hexaware.ams.config.CorsFilter@591b9836, org.springframework.security.web.header.HeaderWriterFilter@e620893, org.springframework.web.filter.CorsFilter@7b2f18cd, org.springframework.security.web.authentication.logout.LogoutFilter@6c1a9613, com.hexaware.ams.config.JwtAuthenticationFilter@80081d7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@42ea4bac, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@71e740c6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@18f7a872, org.springframework.security.web.session.SessionManagementFilter@245504d, org.springframework.security.web.access.ExceptionTranslationFilter@2461b519, org.springframework.security.web.access.intercept.AuthorizationFilter@2b2f8cf]
+[32m2024-12-17 09:56:45.898[0;39m [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+[32m2024-12-17 09:56:45.904[0;39m [INFO] com.hexaware.ams.AssetmanagementSpringrestApplication [main] Started AssetmanagementSpringrestApplication in 3.982 seconds (process running for 4.479)
+[32m2024-12-17 09:56:52.864[0;39m [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[32m2024-12-17 09:56:52.864[0;39m [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+[32m2024-12-17 09:56:52.867[0;39m [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 3 ms
+[32m2024-12-17 09:56:53.674[0;39m [INFO] org.springdoc.api.AbstractOpenApiResource [http-nio-8080-exec-8] Init duration for springdoc-openapi is: 510 ms
+[32m2024-12-17 09:57:03.006[0;39m [INFO] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(2)-127.0.0.1] Application shutdown requested.
+[32m2024-12-17 09:57:03.017[0;39m [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(2)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+[32m2024-12-17 09:57:03.018[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+[32m2024-12-17 09:57:03.024[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown completed.
+[32m2024-12-17 11:16:09.559[0;39m [INFO] com.hexaware.ams.AssetmanagementSpringrestApplication [main] Starting AssetmanagementSpringrestApplication using Java 21.0.4 with PID 21768 (C:\Arghya\Java\AssetManagement\assetmanagement_springrest\target\classes started by arghy in C:\Arghya\Java\AssetManagement\assetmanagement_springrest)
+[32m2024-12-17 11:16:09.559[0;39m [DEBUG] com.hexaware.ams.AssetmanagementSpringrestApplication [main] Running with Spring Boot v3.2.12-SNAPSHOT, Spring v6.1.15
+[32m2024-12-17 11:16:09.560[0;39m [INFO] com.hexaware.ams.AssetmanagementSpringrestApplication [main] No active profile set, falling back to 1 default profile: "default"
+[32m2024-12-17 11:16:10.125[0;39m [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[32m2024-12-17 11:16:10.176[0;39m [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 46 ms. Found 7 JPA repository interfaces.
+[32m2024-12-17 11:16:10.545[0;39m [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+[32m2024-12-17 11:16:10.556[0;39m [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+[32m2024-12-17 11:16:10.556[0;39m [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+[32m2024-12-17 11:16:10.599[0;39m [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+[32m2024-12-17 11:16:10.599[0;39m [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1011 ms
+[32m2024-12-17 11:16:10.702[0;39m [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+[32m2024-12-17 11:16:10.741[0;39m [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.4.10.Final
+[32m2024-12-17 11:16:10.765[0;39m [INFO] org.hibernate.cache.internal.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+[32m2024-12-17 11:16:10.940[0;39m [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+[32m2024-12-17 11:16:10.960[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+[32m2024-12-17 11:16:11.216[0;39m [INFO] com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@68f9e807
+[32m2024-12-17 11:16:11.218[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+[32m2024-12-17 11:16:11.254[0;39m [WARN] org.hibernate.orm.deprecation [main] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[32m2024-12-17 11:16:12.002[0;39m [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[32m2024-12-17 11:16:12.073[0;39m [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[32m2024-12-17 11:16:12.300[0;39m [DEBUG] com.hexaware.ams.config.JwtAuthenticationFilter [main] Filter 'jwtAuthenticationFilter' configured for use
+[32m2024-12-17 11:16:12.377[0;39m [INFO] org.springframework.data.jpa.repository.query.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+[32m2024-12-17 11:16:12.836[0;39m [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[32m2024-12-17 11:16:13.075[0;39m [INFO] org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@25fa5c0c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@22112da1, org.springframework.security.web.context.SecurityContextHolderFilter@2d1ef2fc, com.hexaware.ams.config.CorsFilter@6f0969db, org.springframework.security.web.header.HeaderWriterFilter@1263664f, org.springframework.web.filter.CorsFilter@38eb2140, org.springframework.security.web.authentication.logout.LogoutFilter@6e13e2fc, com.hexaware.ams.config.JwtAuthenticationFilter@329a27ae, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2b2f8cf, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@61defefb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4f06006d, org.springframework.security.web.session.SessionManagementFilter@4cb42a5a, org.springframework.security.web.access.ExceptionTranslationFilter@5ed52389, org.springframework.security.web.access.intercept.AuthorizationFilter@2564410b]
+[32m2024-12-17 11:16:13.343[0;39m [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+[32m2024-12-17 11:16:13.350[0;39m [INFO] com.hexaware.ams.AssetmanagementSpringrestApplication [main] Started AssetmanagementSpringrestApplication in 4.054 seconds (process running for 6.798)
+[32m2024-12-17 11:27:58.907[0;39m [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[32m2024-12-17 11:27:58.909[0;39m [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+[32m2024-12-17 11:27:58.912[0;39m [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+[32m2024-12-17 11:27:59.690[0;39m [INFO] org.springdoc.api.AbstractOpenApiResource [http-nio-8080-exec-9] Init duration for springdoc-openapi is: 486 ms
+[32m2024-12-17 14:35:55.099[0;39m [INFO] com.hexaware.ams.service.EmployeeServiceImp [http-nio-8080-exec-1] Employee list retrieved successfully
+[32m2024-12-17 14:36:17.504[0;39m [WARN] com.hexaware.ams.service.EmployeeServiceImp [http-nio-8080-exec-2] Trying to update employee Details
+[32m2024-12-17 14:36:17.509[0;39m [INFO] com.hexaware.ams.service.EmployeeServiceImp [http-nio-8080-exec-2] Updating employee details
+[32m2024-12-17 14:36:17.627[0;39m [INFO] com.hexaware.ams.service.EmployeeServiceImp [http-nio-8080-exec-6] Employee list retrieved successfully
+[32m2024-12-17 14:36:25.227[0;39m [WARN] com.hexaware.ams.service.EmployeeServiceImp [http-nio-8080-exec-5] Attempting to delete Employee. Details will Erased
+[32m2024-12-17 14:36:25.277[0;39m [INFO] com.hexaware.ams.service.EmployeeServiceImp [http-nio-8080-exec-7] Employee list retrieved successfully
+[32m2024-12-17 14:37:17.302[0;39m [INFO] com.hexaware.ams.service.EmployeeServiceImp [http-nio-8080-exec-2] Employee list retrieved successfully
+[32m2024-12-17 14:37:25.094[0;39m [INFO] com.hexaware.ams.service.AssetAuditServiceImp [http-nio-8080-exec-6] All audits returned.
+[32m2024-12-17 14:37:41.897[0;39m [INFO] com.hexaware.ams.service.AssetAuditServiceImp [http-nio-8080-exec-5] Audit request updated at: 2024-12-17T14:37:41.897288200
+[32m2024-12-17 14:37:41.929[0;39m [INFO] com.hexaware.ams.service.AssetAuditServiceImp [http-nio-8080-exec-7] All audits returned.
+[32m2024-12-17 14:37:58.068[0;39m [INFO] com.hexaware.ams.service.ServiceRequestServiceImp [http-nio-8080-exec-1] Getting List of all Service Requests
+[32m2024-12-17 14:53:20.748[0;39m [INFO] com.hexaware.ams.service.EmployeeServiceImp [http-nio-8080-exec-7] Employee list retrieved successfully
+[32m2024-12-17 14:53:22.621[0;39m [INFO] com.hexaware.ams.service.AssetServiceImp [http-nio-8080-exec-1] Returning all the asset details.
+[32m2024-12-17 15:18:51.945[0;39m [INFO] com.hexaware.ams.service.AssetServiceImp [http-nio-8080-exec-9] Returning all the asset details.
+[32m2024-12-17 15:19:10.705[0;39m [INFO] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(253)-127.0.0.1] Application shutdown requested.
+[32m2024-12-17 15:19:10.726[0;39m [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(253)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+[32m2024-12-17 15:19:10.729[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(253)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+[32m2024-12-17 15:19:10.733[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(253)-127.0.0.1] HikariPool-1 - Shutdown completed.
